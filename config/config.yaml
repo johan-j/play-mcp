@@ -1,0 +1,22 @@
+server:
+  host: "localhost"
+  port: 8080
+  debug: false
+
+plugins:
+  financial:
+    enabled: true
+    # Configuration for real financial data APIs
+    # alpha_vantage_api_key: "your_api_key_here"
+    # yahoo_finance_enabled: true
+    
+  housing:
+    enabled: true
+    # Configuration for real estate APIs
+    # zillow_api_key: "your_api_key_here"
+    # redfin_enabled: true
+    # realtor_api_key: "your_api_key_here"
+
+logging:
+  level: "info"
+  format: "json"

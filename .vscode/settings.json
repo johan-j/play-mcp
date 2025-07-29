@@ -1,0 +1,14 @@
+{
+  "github.copilot.chat.experimental.mcp": {
+    "servers": {
+      "financial-housing-data": {
+        "transport": {
+          "type": "websocket", 
+          "url": "ws://localhost:8080/mcp"
+        },
+        "name": "Financial & Housing Data Server",
+        "description": "Provides financial market data and real estate information"
+      }
+    }
+  }
+}
